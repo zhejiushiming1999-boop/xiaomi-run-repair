@@ -1,0 +1,4 @@
+interface:
+  display_name: "小米跑步数据修复"
+  short_description: "结合小米截图重建跑步曲线，输出 RQrun 文件并核对配速取整差异"
+  default_prompt: "使用 $xiaomi-run-repair 处理本次小米 TCX 和截图，生成 RQrun 曲线文件，核对步频步幅与平均配速，并注明估算来源。"
